@@ -1,8 +1,8 @@
 {
- "name": "laz-cc",
+ "name": "blog",
  "version": "1.0.0",
- "description": "lazaridis case competition website",
- "author": "Andrew McEwen",
+ "description": "personalblog",
+ "author": "Awesome Author",
  "private": true,
  "scripts": {
    "postinstall": "npm install express"
