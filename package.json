@@ -27,7 +27,8 @@
     "shelljs": "^0.7.8",
     "uikit": "^3.0.0-beta.28",
     "vue": "^2.3.3",
-    "vue-router": "^2.6.0"
+    "vue-router": "^2.6.0",
+    "webpack": "^2.7.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
