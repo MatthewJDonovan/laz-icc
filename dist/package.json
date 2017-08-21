@@ -1,0 +1,10 @@
+{
+ "name": "laz-cc",
+ "version": "1.0.0",
+ "description": "lazaridis case competition website",
+ "author": "Andrew McEwen",
+ "private": true,
+ "scripts": {
+   "postinstall": "npm install express"
+ }
+}
