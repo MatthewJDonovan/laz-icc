@@ -1,11 +1,11 @@
 <template>
   <div class="uk-height-1-1">
     <navbar></navbar>
-    <div class="uk-section-secondary uk-section uk-section-medium">
+    <div class="uk-section-secondary uk-section uk-section-large">
       <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid="">
         <div class="uk-width-1-1@m uk-first-column">
           <h1 class="uk-text-center uk-heading-primary">
-            Sponsors </h1>
+            SPONSORS </h1>
         </div>
       </div>
     </div>
@@ -100,7 +100,7 @@
             <h2 class="uk-margin-medium uk-text-center">
               Become a sponsor
             </h2>
-            <div class="uk-margin uk-width-xlarge uk-margin-auto uk-text-center">
+            <div class="uk-margin uk-width-2-3 uk-margin-auto uk-text-center">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
               sem. Nulla consequat massa quis enim.
             </div>

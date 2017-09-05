@@ -34,7 +34,7 @@
         <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid="">
           <div class="uk-width-1-1@m uk-first-column">
             <h2 class="uk-width-xxlarge uk-margin-auto uk-text-center">Welcome to the Lazaridis International Case Competition</h2>
-            <div class="uk-margin uk-margin-remove-top uk-width-xlarge uk-margin-auto uk-text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.</div>
+            <div class="uk-margin uk-width-2-3 uk-margin-auto uk-text-center">{{about_comp}}</div>
             <div class="uk-margin-medium uk-text-center">
               <router-link to="competition" class="el-content uk-button uk-button-text" title="Learn more about us">Learn more about us</router-link>
             </div>
@@ -54,7 +54,8 @@
     name: 'hello',
     data () {
       return {
-        msg: 'THE LAZARDISIS CASE CONFERENCE BEGINS IN'
+        msg: 'THE LAZARIDIS CASE CONFERENCE BEGINS IN',
+        about_comp: 'In February of 2018, Wilfrid Laurier University will host its first ever international case competition. The cases will be focused on the technology industry, highlighting Waterloo’s rapidly growing tech start-up community.'
       }
     },
     components: {

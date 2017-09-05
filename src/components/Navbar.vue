@@ -10,11 +10,12 @@
             <ul class="uk-nav uk-navbar-dropdown-nav">
               <li><router-link to="competition">The Competition</router-link></li>
               <li><router-link to="laz">Lazaridis School of Business & Economics</router-link></li>
+              <li><router-link to="ontario">Waterloo, Ontario</router-link></li>
             </ul>
           </div>
         </li>
         <li class="uk-parent"><router-link to="sponsors">SPONSORS</router-link></li>
-        <li class="uk-parent"><a href="">GET INVOLVED</a></li>
+        <li class="uk-parent"><router-link to="involved">GET INVOLVED</router-link></li>
         <li class="uk-parent"><router-link to="contact">CONTACT US</router-link></li>
         <li><a href=""></a></li>
       </ul>

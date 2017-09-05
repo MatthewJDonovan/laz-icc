@@ -5,6 +5,8 @@ import Contact from '@/components/Contact'
 import Competition from '@/components/Competition'
 import Sponsors from '@/components/Sponsors'
 import Laz from '@/components/Laz'
+import Ontario from '@/components/Ontario'
+import Involved from '@/components/Involved'
 import UIkit from 'uikit'
 import Icons from 'uikit/dist/js/uikit-icons'
 
@@ -33,9 +35,20 @@ export default new Router({
       name: 'laz',
       component: Laz
     }, {
+      path: '/ontario',
+      name: 'ontario',
+      component: Ontario
+    }, {
       path: '/sponsors',
       name: 'sponsors',
       component: Sponsors
+    }, {
+      path: '/involved',
+      name: 'involved',
+      component: Involved
     }
-  ]
+  ],
+  scrollBehavior (to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  }
 })
