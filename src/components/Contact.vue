@@ -32,7 +32,7 @@
           <div class="uk-width-2-5@m">
             <div class="uk-card uk-card-default uk-card-body">
               <h3 class="uk-card-title">Contact Details</h3>
-              <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>If you are interested in participating as a competitor or as a sponsor please send an email to <a href="mailto:tomas.marek@lazicc.com?Subject=Lazaridis%20International%20Case%20Competition" target="_top">tomas.marek@lazicc.com</a></p>
               <h4>Follow Us</h4>
               <a href="" class="uk-icon-button uk-margin-medium-right" uk-icon="icon: twitter"></a>
               <a href="" class="uk-icon-button  uk-margin-medium-right" uk-icon="icon: facebook"></a>

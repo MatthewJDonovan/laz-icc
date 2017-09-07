@@ -24,7 +24,7 @@
           <h2 class="uk-width-xxlarge uk-margin-auto uk-text-center">Schedule</h2>
           <div class="uk-margin uk-margin-remove-top uk-width-1-2 uk-margin-auto uk-text-center">
             <p>{{schedule}}</p>
-            <button class="el-content uk-button uk-button-default">Download Schedule</button>
+            <a class="el-content uk-button uk-button-default" href='https://drive.google.com/uc?authuser=0&id=0B1vRwM0N8kv1UURhS193RGVsLTg&export=download' target="_blank">Download Schedule</a>
           </div>
         </div>
       </div>

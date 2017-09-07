@@ -11,6 +11,7 @@
             <h2 class="uk-width-xxlarge uk-margin-auto uk-text-center">About Waterloo</h2>
             <div class="uk-margin uk-margin-remove-top uk-width-5-6 uk-margin-auto uk-text-center">
               <p>{{waterloo}}</p>
+              <p>{{universities}}</p>
               <p>{{activities}}</p>
             </div>
           </div>
@@ -33,8 +34,9 @@
     },
     data () {
       return {
-        waterloo: 'Waterloo is located in Southern Ontario in the heart of Canada’s Technology Triangle. As a result, the city hosts numerous leading technology companies including, Google, Desire to Learn, Blackberry and Shopify. Aside from being the home of two of the country’s top universities, Waterloo is also the location of the Perimeter Institute of Theoretical Physics, the Institute for Quantum Computing as well as the Centre for International Governance Innovation.',
-        activities: 'The city’s rich cultural diversity, Waterloo offers visitors a unique blend of intriguing restaurants, boutique stores, galleries and nightlife. There are many things to do in Waterloo and we encourage all competitors to reach out to their respective ambassadors to recommend activities in the Waterloo area.'
+        waterloo: 'Waterloo is located in Southern Ontario, a short drive from both Toronto and Niagara Falls; two gems of Ontario. The city is located in the heart of Canada’s Technology Triangle and as a result hosts numerous leading technology companies including, Google, Desire to Learn, Blackberry and Shopify. Academic strength in the area is shown in the two universities as well as institutes such as the Perimeter Institute, the Institute for Quantum Computing and Communitech.',
+        universities: 'Waterloo also boasts a diverse population that ranges from thousands of students that attend Wilfrid Laurier University and the University of Waterloo while being ten minutes away from St. Jacobs with its large Mennonite community. The German roots of Waterloo are demonstrated through the city’s Oktoberfest, the largest one located outside of Germany. The city’s rich cultural diversity offers visitors a unique blend of intriguing restaurants, boutique stores, galleries and nightlife.',
+        activities: 'There are many things to do in Waterloo and we encourage all competitors to reach out to their respective ambassadors to recommend activities in the Waterloo area.'
       }
     }
   }

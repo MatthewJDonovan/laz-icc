@@ -10,8 +10,7 @@
         <div class="uk-width-expand@l uk-width-1-2@m">
           <h2 class="uk-h5">CONTACT</h2>
           <ul class="uk-list">
-            <li class="el-item">Phone: 555-5555</li>
-            <li class="el-item">Email: example@gmail.com</li>
+            <li class="el-item">Email: <a href="mailto:tomas.marek@lazicc.com?Subject=Lazaridis%20International%20Case%20Competition" target="_top">tomas.marek@lazicc.com</a></li>
           </ul>
         </div>
         <div class="uk-width-expand@l uk-width-1-2@m">
