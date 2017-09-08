@@ -55,7 +55,7 @@
     data () {
       return {
         msg: 'THE LAZARIDIS CASE CONFERENCE BEGINS IN',
-        about_comp: 'In February of 2018, Wilfrid Laurier University will host its first ever international case competition. The cases will be focused on the technology industry, highlighting Waterloo’s rapidly growing tech start-up community.'
+        about_comp: 'In October of 2018, Wilfrid Laurier University will host its first ever international case competition. The cases will be focused on the technology industry, highlighting Waterloo’s rapidly growing tech start-up community.'
       }
     },
     components: {

@@ -5,7 +5,7 @@
     </div>
     <div class="uk-navbar-right">
       <ul class="uk-navbar-nav">
-        <li class="uk-parent"><a href="">ABOUT US</a>
+        <li class="uk-parent"><router-link to="competition">ABOUT US</router-link>
           <div class="uk-navbar-dropdown">
             <ul class="uk-nav uk-navbar-dropdown-nav">
               <li><router-link to="competition">The Competition</router-link></li>
