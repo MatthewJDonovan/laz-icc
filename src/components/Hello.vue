@@ -5,7 +5,7 @@
       <div class="uk-flex uk-flex-column uk-width-1-1 uk-flex-center">
         <h1> {{msg}} </h1>
         <div class="uk-flex uk-width-1-1 uk-flex-center">
-          <div class="uk-grid-small uk-child-width-auto" uk-grid uk-countdown="date: 2018-08-23T01:53:19+00:00">
+          <div class="uk-grid-small uk-child-width-auto" uk-grid uk-countdown="date: 2018-10-08T05:00:00+00:00">
             <div>
               <div class="uk-countdown-number uk-countdown-days"></div>
               <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">DAYS</div>

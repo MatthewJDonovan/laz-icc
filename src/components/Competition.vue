@@ -24,7 +24,6 @@
           <h2 class="uk-width-xxlarge uk-margin-auto uk-text-center">Schedule</h2>
           <div class="uk-margin uk-margin-remove-top uk-width-1-2 uk-margin-auto uk-text-center">
             <p>{{schedule}}</p>
-            <a class="el-content uk-button uk-button-default" href='https://drive.google.com/uc?authuser=0&id=0B1vRwM0N8kv1UURhS193RGVsLTg&export=download' target="_blank">Download Schedule</a>
           </div>
         </div>
       </div>
@@ -41,8 +40,8 @@
     name: 'competition',
     data () {
       return {
-        about: 'The competition will feature teams of four from around the world that will compete in two three hour closed book cases and a 24-hour case. The cases will focus on technology to leverage the unique entrepreneurial and innovative ecosystem in which the business school operates in. We are incredibly proud to present the opportunity for the best and brightest students from around the world to compete in the tech hub that we call home: Waterloo, Ontario.',
-        schedule: 'Below is a schedule of the inaugural Lazaridis International Case Competition that will include participants arriving on Sunday and participating in a variety of cases and activities to learn about what Waterloo and the surrounding areas have to offer.'
+        about: 'The competition will feature teams of four from around the world that will compete in a five hour open book case and a 24-hour case. The cases will focus on technology to leverage the unique entrepreneurial and innovative ecosystem in which the business school operates in. We are incredibly proud to present the opportunity for the best and brightest students from around the world to compete in the tech hub that we call home: Waterloo, Ontario.',
+        schedule: 'The schedule for the competition is coming soon and will include competitors participating in a variety of cases and activities to learn about what Waterloo and the surrounding areas have to offer.'
       }
     },
     components: {
