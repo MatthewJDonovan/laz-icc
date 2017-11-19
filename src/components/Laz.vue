@@ -39,10 +39,10 @@
     <footnav></footnav>
   </div>
 </template>
-
 <script>
   import Footnav from './Footer.vue'
   import Navbar from './Navbar.vue'
+  import videojs from 'video.js'
   
   export default {
     name: 'laz',
@@ -56,11 +56,42 @@
         laz_hall: 'In May of 2017, the Lazaridis School of Business & Economics unveiled the new Business & Economics building, Lazaridis Hall in Waterloo Ontario, Canada. We are pleased to announce that the Lazaridis International Case Competition will utilize the features and functionality of the building.',
         facts: ['One of Canada’s largest and selective business schools with 140 full time faculty, 60 part time faculty and 6,000 students', 'One of only 5% of the world’s 13,000 business programs that is accredited by the International Association to Advance Collegiate Schools of Business (AACSB)', 'Home to Canada’s largest business degree co-op program', 'Seven-time champions of the “School of the Year” award at the JDCC (Jeux de Commerce Central) Competition, one of Canada’s most prestigious business case competitions', 'More gold medals in the Chartered Accountants Uniform Final Examination (UFE, now CFE) than any other Canadian university', 'Over 100 new enterprises have been created through Laurier LaunchPad, which brings students, alumni, faculty members and community partners together to share skills and experience', 'Laurier’s Startup Fund’s students identify, evaluate and invest in real enterprises', 'Linkedin ranks Laurier as #2 for marketers, #2 for investment bankers and #4 for finance professionals in Canada, in terms of landing a great job after graduation']
       }
+    },
+    methods: {
+      htmlVideo: function () {
+        videojs('demo_video', {
+          controlBar: {
+            timeDivider: false,
+            fullscreenToggle: false,
+            playToggle: false,
+            remainingTimeDisplay: false
+          },
+          'height': 'auto',
+          'width': 'auto'
+        }).ready(function () {
+          var myPlayer = document
+          var aspectRatio = 5 / 12 // aspect ratio 12:5 (video frame 960x400)
+          function resizeVideoJS () {
+            var width = document.getElementById(myPlayer.id()).parentElement.offsetWidth
+            myPlayer.width(width).height(width * aspectRatio)
+          }
+          resizeVideoJS()
+          window.onresize = resizeVideoJS
+        })
+      },
+      mounted: function () {
+        this.htmlVideo()
+      }
     }
   }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-  
+
+.video-js {
+  height: 100%;
+  width: 100%;
+}
+
 </style>

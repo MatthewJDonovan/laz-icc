@@ -33,7 +33,10 @@ export default {
 
 .uk-logo {
   background-image: url("../assets/logo.png");
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 300px;
+  margin-left: 20px;
 }
 </style>

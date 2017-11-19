@@ -3,6 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import videojs from 'video.js';
+import 'videojs-youtube/dist/Youtube.js';
 
 Vue.config.productionTip = false
 

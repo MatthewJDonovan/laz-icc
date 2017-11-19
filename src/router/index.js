@@ -9,6 +9,8 @@ import Ontario from '@/components/Ontario'
 import Involved from '@/components/Involved'
 import UIkit from 'uikit'
 import Icons from 'uikit/dist/js/uikit-icons'
+import videojs from 'video.js';
+import 'videojs-youtube/dist/Youtube.js';
 
 // loads the Icon plugin
 UIkit.use(Icons)
