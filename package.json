@@ -102,6 +102,7 @@
     "commander": "^2.11.0",
     "commondir": "^1.0.1",
     "concat-map": "0.0.1",
+    "connect-history-api-fallback": "^1.5.0",
     "console-browserify": "^1.1.0",
     "constants-browserify": "^1.0.0",
     "convert-source-map": "^1.5.0",

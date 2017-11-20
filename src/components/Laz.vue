@@ -1,10 +1,7 @@
 <template>
   <div class="uk-height-1-1">
     <navbar></navbar>
-    <div class="uk-cover-container uk-height-1-1" uk-height-viewport>
-      <iframe uk-cover="automute: false" src="https://www.youtube.com/embed/5T6Acju4Txs?rel=0&autoplay=1&loop=1&playlist=5T6Acju4Txs" width="640" height="500" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="uk-section-default uk-section uk-section-small uk-margin-medium-top">
+    <div class="uk-section-default uk-section uk-section-medium uk-margin-medium-top">
       <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid="">
         <div class="uk-width-1-1@m uk-first-column">
           <h2 class="uk-width-xxlarge uk-margin-auto uk-text-center">Lazaradis School of Business and Economics</h2>
@@ -14,7 +11,15 @@
         </div>
       </div>
     </div>
-    <div class="uk-section-default uk-section uk-section-small">
+    <div class="uk-cover-container uk-height-1-1" uk-height-viewport>
+      <video 
+        id="vid1"
+        class="video-js vjs-default-skin vjs-big-play-centered"
+        controls
+        data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=5T6Acju4Txs"}] }'>
+      </video>
+    </div>
+    <div class="uk-section-default uk-section uk-section-medium">
       <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid="">
         <div class="uk-width-1-1@m uk-first-column">
           <h2 class="uk-width-xxlarge uk-margin-auto uk-text-center">Lazaridis Hall</h2>
@@ -55,32 +60,6 @@
         about: 'Wilfrid Laurier University’s Lazaridis School of Business & Economics is one of Canada’s largest and most selective business schools. Led by Micheal J. Kelly, the Lazaridis School of Business & Economics has an outstanding reputation for creating exceptional leaders, and our alumni are at the head of many major Canadian corporations, including BMO, Kellogg’s Canada, Nestlé Canada, Toshiba Canada and many other firms.',
         laz_hall: 'In May of 2017, the Lazaridis School of Business & Economics unveiled the new Business & Economics building, Lazaridis Hall in Waterloo Ontario, Canada. We are pleased to announce that the Lazaridis International Case Competition will utilize the features and functionality of the building.',
         facts: ['One of Canada’s largest and selective business schools with 140 full time faculty, 60 part time faculty and 6,000 students', 'One of only 5% of the world’s 13,000 business programs that is accredited by the International Association to Advance Collegiate Schools of Business (AACSB)', 'Home to Canada’s largest business degree co-op program', 'Seven-time champions of the “School of the Year” award at the JDCC (Jeux de Commerce Central) Competition, one of Canada’s most prestigious business case competitions', 'More gold medals in the Chartered Accountants Uniform Final Examination (UFE, now CFE) than any other Canadian university', 'Over 100 new enterprises have been created through Laurier LaunchPad, which brings students, alumni, faculty members and community partners together to share skills and experience', 'Laurier’s Startup Fund’s students identify, evaluate and invest in real enterprises', 'Linkedin ranks Laurier as #2 for marketers, #2 for investment bankers and #4 for finance professionals in Canada, in terms of landing a great job after graduation']
-      }
-    },
-    methods: {
-      htmlVideo: function () {
-        videojs('demo_video', {
-          controlBar: {
-            timeDivider: false,
-            fullscreenToggle: false,
-            playToggle: false,
-            remainingTimeDisplay: false
-          },
-          'height': 'auto',
-          'width': 'auto'
-        }).ready(function () {
-          var myPlayer = document
-          var aspectRatio = 5 / 12 // aspect ratio 12:5 (video frame 960x400)
-          function resizeVideoJS () {
-            var width = document.getElementById(myPlayer.id()).parentElement.offsetWidth
-            myPlayer.width(width).height(width * aspectRatio)
-          }
-          resizeVideoJS()
-          window.onresize = resizeVideoJS
-        })
-      },
-      mounted: function () {
-        this.htmlVideo()
       }
     }
   }
