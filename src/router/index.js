@@ -17,14 +17,6 @@ UIkit.use(Icons)
 
 Vue.use(Router)
 
-var oldLocation = location.href;
-setInterval(function() {
-     if(location.href != oldLocation) {
-          // do your action
-          location.reload()
-     }
- }, 1000); 
-
 //Your initialization
 
 export default new Router({
