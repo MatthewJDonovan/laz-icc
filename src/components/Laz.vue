@@ -13,7 +13,7 @@
     </div>
     <div class="uk-cover-container uk-height-1-1" uk-height-viewport>
         <video
-          id="vid1"
+          id="demo_video"
           class="video-js vjs-default-skin vjs-big-play-centered"
           controls
           data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=5T6Acju4Txs"}] }'>
@@ -63,29 +63,8 @@
       }
     },
     methods: {
-      htmlVideo: function () {
-        videojs('demo_video', {
-          controlBar: {
-            timeDivider: false,
-            fullscreenToggle: false,
-            playToggle: false,
-            remainingTimeDisplay: false
-          },
-          'height': 'auto',
-          'width': 'auto'
-        }).ready(function () {
-          var myPlayer = document
-          var aspectRatio = 5 / 12 // aspect ratio 12:5 (video frame 960x400)
-          function resizeVideoJS () {
-            var width = document.getElementById(myPlayer.id()).parentElement.offsetWidth
-            myPlayer.width(width).height(width * aspectRatio)
-          }
-          resizeVideoJS()
-          window.onresize = resizeVideoJS
-        })
-      },
       mounted: function () {
-        this.htmlVideo()
+        location.reload()
       }
     }
   }
