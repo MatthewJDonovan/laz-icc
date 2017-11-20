@@ -1,33 +1,19 @@
 <template>
   <div class="uk-height-1-1">
     <navbar></navbar>
-    <div class="uk-section-default uk-section uk-section-medium">
+    <div class="uk-cover-container uk-height-1-1" uk-height-viewport>
+      <iframe uk-cover="automute: false" src="https://www.youtube.com/embed/dwlHeF2rPck?rel=0&autoplay=1&loop=1&playlist=dwlHeF2rPck" width="640" height="500" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="uk-section-default uk-section uk-section-large">
       <div class="uk-container">
         <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid="">
           <div class="uk-width-1-1@m uk-first-column">
             <h2 class="uk-width-xxlarge uk-margin-auto uk-text-center">About Waterloo</h2>
             <div class="uk-margin uk-margin-remove-top uk-width-5-6 uk-margin-auto uk-text-center">
               <p>{{waterloo}}</p>
+              <p>{{universities}}</p>
+              <p>{{activities}}</p>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="uk-cover-container uk-height-1-1" uk-height-viewport>
-      <video
-        id="vid1"
-        class="video-js vjs-default-skin vjs-big-play-centered"
-        controls
-        data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=dwlHeF2rPck"}] }'>
-      </video>
-    </div>
-    <div class="uk-section-default uk-section uk-section-medium uk-section-muted">
-      <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid="">
-        <div class="uk-width-1-1@m uk-first-column">
-          <h2 class="uk-width-xxlarge uk-margin-auto uk-text-center">Waterloo Universities</h2>
-          <div class="uk-margin uk-margin-remove-top uk-width-2-3 uk-margin-auto uk-text-center">
-            <p>{{universities}}</p>
-            <p>{{activities}}</p>
           </div>
         </div>
       </div>
@@ -58,10 +44,5 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-
-.video-js {
-  height: 100%;
-  width: 100%;
-}
   
 </style>

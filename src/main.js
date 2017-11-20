@@ -3,9 +3,6 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-require('../node_modules/video.js/dist/video-js.min.css')
-require('../node_modules/video.js/dist/video.min.js')
-require('../node_modules/videojs-youtube/dist/Youtube.min.js')
 
 Vue.config.productionTip = false
 
