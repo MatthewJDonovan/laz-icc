@@ -1,10 +1,7 @@
 <template>
   <div class="uk-height-1-1">
     <navbar></navbar>
-    <div class="uk-cover-container uk-height-1-1" uk-height-viewport>
-      <iframe uk-cover="automute: false" src="https://www.youtube.com/embed/5T6Acju4Txs?rel=0&autoplay=1&loop=1&playlist=5T6Acju4Txs" width="640" height="500" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="uk-section-default uk-section uk-section-small uk-margin-medium-top">
+    <div class="uk-section-default uk-section uk-section-medium uk-margin-medium-top">
       <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid="">
         <div class="uk-width-1-1@m uk-first-column">
           <h2 class="uk-width-xxlarge uk-margin-auto uk-text-center">Lazaradis School of Business and Economics</h2>
@@ -14,7 +11,15 @@
         </div>
       </div>
     </div>
-    <div class="uk-section-default uk-section uk-section-small">
+    <div class="uk-cover-container uk-height-1-1" uk-height-viewport>
+        <video
+          id="vid1"
+          class="video-js vjs-default-skin vjs-big-play-centered"
+          controls
+          data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=5T6Acju4Txs"}] }'>
+        </video>
+    </div>
+    <div class="uk-section-default uk-section uk-section-medium">
       <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid="">
         <div class="uk-width-1-1@m uk-first-column">
           <h2 class="uk-width-xxlarge uk-margin-auto uk-text-center">Lazaridis Hall</h2>
