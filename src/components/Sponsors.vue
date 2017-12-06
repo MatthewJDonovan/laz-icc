@@ -23,7 +23,7 @@
           <img class="uk-align-center" src="../assets/company_placeholder.png" height="200" width="200">
         </div>
         <div class="uk-margin uk-width-xlarge uk-margin-auto uk-text-center">
-          Apply to become a Gold sponsor!
+          Apply to become a Platinum sponsor!
         </div>
       </div>
     </div>
