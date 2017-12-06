@@ -9,7 +9,6 @@ import Ontario from '@/components/Ontario'
 import Involved from '@/components/Involved'
 import UIkit from 'uikit'
 import Icons from 'uikit/dist/js/uikit-icons'
-require('../../node_modules/video.js/dist/video-js.min.css')
 require('../../node_modules/video.js/dist/video.min.js')
 require('../../node_modules/videojs-youtube/dist/Youtube.min.js')
 
