@@ -16,14 +16,14 @@
         </h2>
         <div class="uk-margin-small-top">
           <ul class="uk-flex-center" uk-tab>
-            <li class="uk-active"><a href="#">DESIRE 2 LEARN</a></li>
+            <li class="uk-active"><a href="#">COMING SOON</a></li>
           </ul>
         </div>
         <div class="uk-width-1-1 uk-align-center">
-          <div class="sponsor-image" v-on:click="toSite('https://www.d2l.com')"></div>
+          <img class="uk-align-center" src="../assets/company_placeholder.png" height="200" width="200">
         </div>
         <div class="uk-margin uk-width-xlarge uk-margin-auto uk-text-center">
-          We are pleased to announce a platinum partnership with Desire 2 Learn, a leading educational platform currently headquartered in Kitchener-Waterloo.
+          Apply to become a Gold sponsor!
         </div>
       </div>
     </div>
@@ -34,14 +34,14 @@
         </h2>
         <div class="uk-margin-small-top">
           <ul class="uk-flex-center" uk-tab>
-            <li class="uk-active"><a href="#">COMING SOON</a></li>
+            <li class="uk-active"><a href="#">DESIRE 2 LEARN</a></li>
           </ul>
         </div>
         <div class="uk-width-1-1 uk-align-center">
-          <img class="uk-align-center" src="../assets/company_placeholder.png" height="200" width="200">
+          <div class="sponsor-image" v-on:click="toSite('https://www.d2l.com')"></div>
         </div>
         <div class="uk-margin uk-width-xlarge uk-margin-auto uk-text-center">
-          Apply to become a Gold sponsor!
+          We are pleased to announce a platinum partnership with Desire 2 Learn, a leading educational platform currently headquartered in Kitchener-Waterloo.
         </div>
       </div>
     </div>
