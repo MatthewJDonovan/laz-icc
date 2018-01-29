@@ -17,14 +17,14 @@ UIkit.use(Icons)
 Vue.use(Router)
 
 // store url on load
-var currentPage = window.location.href;
+var currentPage = window.location.href
 
 // listen for changes
-setInterval(function() {
-    if (currentPage != window.location.href) {
-        currentPage = window.location.href
-        location.reload()
-    }
+setInterval(function () {
+  if (currentPage != window.location.href) {
+      currentPage = window.location.href
+      location.reload()
+  }
 }, 500)
 
 //Your initialization

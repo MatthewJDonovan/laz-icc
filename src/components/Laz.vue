@@ -1,12 +1,25 @@
 <template>
   <div class="uk-height-1-1">
     <navbar></navbar>
+    <div class="uk-background-cover uk-height-large uk-panel uk-flex uk-flex-center uk-flex-middle uk-background-bottom-center laz-image"></div>
     <div class="uk-section-default uk-section uk-section-medium uk-margin-medium-top">
       <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid="">
         <div class="uk-width-1-1@m uk-first-column">
           <h2 class="uk-width-xxlarge uk-margin-auto uk-text-center">Lazaradis School of Business and Economics</h2>
           <div class="uk-margin uk-margin-remove-top uk-width-2-3 uk-margin-auto uk-text-center">
             <p>{{about}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="uk-section-muted uk-section uk-section-medium uk-background-muted">
+      <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid="">
+        <div class="uk-width-1-1@m uk-first-column">
+          <h3 class="uk-margin-auto uk-width-2-3">Lazaridis School Quick Facts</h3>
+          <div class="uk-margin uk-margin-remove-top uk-width-2-3 uk-margin-auto">
+            <ul class="uk-list uk-list-bullet">
+              <li v-for="fact in facts">{{ fact }}</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -18,28 +31,6 @@
         controls
         data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=5T6Acju4Txs"}] }'>
       </video>
-    </div>
-    <div class="uk-section-default uk-section uk-section-medium">
-      <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid="">
-        <div class="uk-width-1-1@m uk-first-column">
-          <h2 class="uk-width-xxlarge uk-margin-auto uk-text-center">Lazaridis Hall</h2>
-          <div class="uk-margin uk-margin-remove-top uk-width-2-3 uk-margin-auto uk-text-center">
-            <p>{{laz_hall}}</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="uk-section-default uk-section uk-section-medium uk-background-muted">
-      <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid="">
-        <div class="uk-width-1-1@m uk-first-column">
-          <h3 class="uk-margin-auto uk-width-2-3">Lazaridis School Quick Facts</h3>
-          <div class="uk-margin uk-margin-remove-top uk-width-2-3 uk-margin-auto">
-            <ul class="uk-list uk-list-bullet">
-              <li v-for="fact in facts">{{ fact }}</li>
-            </ul>
-          </div>
-        </div>
-      </div>
     </div>
     <footnav></footnav>
   </div>
@@ -67,10 +58,13 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-
+.laz-image {
+    background-image: url("../assets/laz_bg.jpg");
+    background-color: #999;
+    background-blend-mode: multiply;
+}
 .video-js {
   height: 100%;
   width: 100%;
 }
-
 </style>
