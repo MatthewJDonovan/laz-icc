@@ -1,5 +1,5 @@
 <template>
-  <div class="uk-section-secondary uk-section">
+  <div class="uk-section-muted uk-section">
     <div class="uk-container">
       <div class="uk-grid-large uk-grid-margin-large uk-grid" uk-grid>
         <div class="uk-width-expand@l uk-width-1-2@m uk-first-column">
@@ -44,12 +44,12 @@ export default {
 
 .middle-row {
   height: 10vh;
-  background-color: #222;
+  background-color: #d8d8d8;
 }
 .bottom-row {
   width: 100vw;
   height: 5vh;
-  background-color: #111;
+  background-color: #a8a8a8;
   color: #d8d8d8;
   text-align: left;
   padding-left: 15px;

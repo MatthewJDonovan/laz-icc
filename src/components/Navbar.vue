@@ -14,7 +14,7 @@
           </div>
         </li>
         <li class="uk-parent"><router-link to="sponsors">SPONSORS</router-link></li>
-        <li class="uk-parent"><router-link to="involved">SPONSORSHIP INFORMATION</router-link></li>
+        <li class="uk-parent"><router-link to="involved">GET INVOLVED</router-link></li>
         <li class="uk-parent"><router-link to="contact">CONTACT US</router-link></li>
         <li><a href=""></a></li>
       </ul>

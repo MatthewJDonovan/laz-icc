@@ -21,7 +21,7 @@
         id="vid1"
         class="video-js vjs-default-skin vjs-big-play-centered"
         controls
-        data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=dwlHeF2rPck"}] }'>
+        data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=lhNx2kPIFG8"}] }'>
       </video>
     </div>
     <footnav></footnav>

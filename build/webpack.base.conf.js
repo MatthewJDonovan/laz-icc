@@ -55,6 +55,13 @@ module.exports = {
         }
       },
       {
+        test: /\.(pdf)(\?.*)?$/,
+        loader: 'url-loader',
+        options: {
+          name: utils.assetsPath('[name].[hash:7].[ext]')
+        }
+      },
+      {
         test: /\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/,
         loader: 'url-loader',
         options: {

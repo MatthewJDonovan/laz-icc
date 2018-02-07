@@ -33,7 +33,7 @@
       <div class="uk-container">
         <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid="">
           <div class="uk-width-1-1@m uk-first-column">
-            <h3 class="uk-width-xxlarge uk-margin-auto uk-text-center uk-heading-line"><span>“Work hard, play hard”…..in the Silicon Valley of the North</span></h3>
+            <h3 class="uk-width-xxlarge uk-margin-auto uk-text-center uk-heading-line"><span>“Work hard, play hard” in the Silicon Valley of the North</span></h3>
             <div class="uk-margin uk-width-2-3 uk-margin-auto uk-text-center">{{section1_1}}<br></br>{{section1_2}}</div>
           </div>
         </div>
@@ -71,8 +71,8 @@
     <div class="uk-section-default uk-section uk-section-medium">
       <div class="uk-container">
         <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid="">
-          <h2 class="uk-width-1-5 uk-margin-auto uk-text-center uk-heading-bullet"><span>SCHEDULE</span></h2>
-          <div class="uk-width-4-5 uk-margin-auto uk-text-center">
+          <h2 class="uk-width-2-5 uk-margin-auto uk-text-right uk-heading-bullet"><span>SCHEDULE</span></h2>
+          <div class="uk-width-3-5 uk-margin-auto uk-text-left">
             <div class="schedule uk-background-contain uk-height-large uk-panel uk-flex uk-flex-center uk-flex-middle"></div>
           </div>
         </div>
@@ -90,8 +90,8 @@
     name: 'hello',
     data() {
       return {
-        msg: 'THE LAZARIDIS CASE CONFERENCE BEGINS IN',
-        section1_1: 'Laurier’s Lazaridis School of Business & Economics is the business program of Wilfrid Laurier University. Located in Waterloo, Ontario – roughly one hour from Toronto, it is one of Canada’s largest and most selective business schools.  We are ranked as one of the top six comprehensive universities in Canada.',
+        msg: 'The Lazaridis International Case Conference Begins In...',
+        section1_1: 'The Lazaridis School of Business & Economics is the business program of Wilfrid Laurier University. Located in Waterloo, Ontario – roughly one hour from Toronto, it is one of Canada’s largest and most selective business schools.  We are ranked as one of the top six comprehensive universities in Canada.',
         section1_2: 'Waterloo is the “Silicon Valley of the North” - many leading companies such as Google, BlackBerry and Shopify are located here.  We are uniquely positioned to deliver a competition that will focus on a key driver of change– technology.',
         section2_1: 'The best international competition teams have two qualities: competition experience and insightful knowledge of how industries are changing and the latest tools that can create competitive advantage.',
         section2_2: 'Sponsors, case subjects and guest speakers will share information on how technology is changing industries and strategies as well as the tools that can be harnessed to achieve business objectives. Examples of case topics are technology companies seeking recommendations on growth, or non-technology companies that want you to recommend technology tools, i.e. ecommerce strategies.',
@@ -138,6 +138,7 @@
   
   .schedule {
     background-image: url("../assets/schedule.png");
+    background-position: left;
   }
   
   .uk-section-laz {

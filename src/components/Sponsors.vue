@@ -22,15 +22,15 @@
           <div class="uk-width-expand@m uk-width-1-2@s uk-first-column">
             <div class="uk-margin uk-panel uk-text-center">
               <img src="../assets/d2l_logo.png" class="el-image " alt="">
-              <div class="el-content">We are pleased to announce a platinum partnership with Desire 2 Learn, a leading educational platform currently headquartered in Kitchener-Waterloo.</div>
+              <div class="el-content">o	We are pleased to announce a gold partnership with D2L, a leading educational platform headquartered in Kitchener-Waterloo.</div>
             </div>
             <div>
               <ul class="uk-subnav uk-margin-remove-bottom uk-subnav-divider uk-flex-center" uk-margin="">
                 <li class="el-item uk-first-column">
-                  <a class="el-link" href="#" uk-scroll="">Website</a>
+                  <a class="el-link" href="https://www.d2l.com" target="_blank" >Website</a>
                 </li>
                 <li class="el-item">
-                  <a class="el-link" href="#" uk-scroll="">Twitter</a>
+                  <a class="el-link" href="https://twitter.com/D2L" target="_blank" >Twitter</a>
                 </li>
               </ul>
             </div>
