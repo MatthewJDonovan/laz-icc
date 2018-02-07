@@ -13,7 +13,7 @@
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
     "postinstall": "npm run build",
-    "deploy": "git add . && git commit -m 'commit' && git subtree push — prefix dist heroku master"
+    "deploy": "git add . && git commit -m 'commit' && git subtree push —-prefix dist heroku master"
   },
   "dependencies": {
     "acorn": "^5.1.1",
