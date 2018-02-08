@@ -35,7 +35,7 @@
               <p>If you are interested in participating as a competitor or as a sponsor please send an email to <a href="mailto:tomas.marek@lazicc.com?Subject=Lazaridis%20International%20Case%20Competition" target="_top">tomas.marek@lazicc.com</a></p>
               <h4>Follow Us</h4>
               <a href="" class="uk-icon-button uk-margin-medium-right" uk-icon="icon: twitter"></a>
-              <a href="" class="uk-icon-button  uk-margin-medium-right" uk-icon="icon: facebook"></a>
+              <a href="https://www.facebook.com/LazaridisICC/" class="uk-icon-button  uk-margin-medium-right" uk-icon="icon: facebook" target="_blank"></a>
               <a href="" class="uk-icon-button uk-margin-medium-right" uk-icon="icon: google-plus"></a> 
               <a href="" class="uk-icon-button uk-margin-medium-right" uk-icon="icon: instagram"></a> 
             </div>

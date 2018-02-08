@@ -16,9 +16,15 @@
         <div class="uk-width-expand@l uk-width-1-2@m">
           <h2 class="uk-h5">SOCIAL</h2>
           <ul class="uk-list">
-            <li class="el-item">Facebook</li>
-            <li class="el-item">Twitter</li>
-            <li class="el-item">Instagram</li>
+            <li>
+              <a href="https://www.facebook.com/LazaridisICC/" class="uk-link-reset" target="_blank">Facebook</a>
+            </li>
+            <li>
+              <a class="uk-link-reset">Twitter</a>
+            </li>
+            <li>
+              <a class="uk-link-reset">Instagram</a>
+            </li>
           </ul>
         </div>
         <div class="uk-width-expand@l uk-width-1-2@m">

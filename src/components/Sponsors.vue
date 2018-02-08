@@ -22,7 +22,7 @@
           <div class="uk-width-expand@m uk-width-1-2@s uk-first-column">
             <div class="uk-margin uk-panel uk-text-center">
               <img src="../assets/d2l_logo.png" class="el-image " alt="">
-              <div class="el-content">o	We are pleased to announce a gold partnership with D2L, a leading educational platform headquartered in Kitchener-Waterloo.</div>
+              <div class="el-content">We are pleased to announce a gold partnership with D2L, a leading educational platform headquartered in Kitchener-Waterloo.</div>
             </div>
             <div>
               <ul class="uk-subnav uk-margin-remove-bottom uk-subnav-divider uk-flex-center" uk-margin="">
@@ -75,7 +75,7 @@
               Become a sponsor
             </h2>
             <div class="uk-margin uk-width-2-3 uk-margin-auto uk-text-center">
-              The Lazaridis International Case Competition seeks to strengthen its partnerships within the Kitchener-Waterloo community and beyond. We are currently looking to strengthening our current partnerships and building new relationships with leading organizations
+              The Lazaridis International Case Competition seeks to strengthen its partnerships within the Kitchener-Waterloo community and beyond. We are currently looking to strengthen and build our current partnerships and building new relationships with leading organizations
               across Canada. If you are interested in sponsoring the competition we encourage you to reach out to us via email at <a href="mailto:tomas.marek@lazicc.com?Subject=Lazaridis%20International%20Case%20Competition" target="_top">tomas.marek@lazicc.com</a>            or <a href="mailto:jordan.hanser@lazicc.com?Subject=Lazaridis%20International%20Case%20Competition" target="_top">jordan.hanser@lazicc.com</a>
             </div>
             <div class="uk-margin-medium uk-text-center">
