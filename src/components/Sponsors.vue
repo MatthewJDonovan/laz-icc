@@ -21,7 +21,9 @@
         <div class="uk-grid-margin uk-grid" uk-grid="">
           <div class="uk-width-expand@m uk-width-1-2@s uk-first-column">
             <div class="uk-margin uk-panel uk-text-center">
-              <img src="../assets/d2l_logo.png" class="el-image " alt="">
+              <div class="image-container">
+                <img src="../assets/d2l_logo.png" class="el-image logo-image" alt="">
+              </div>
               <div class="el-content">We are pleased to announce a gold partnership with D2L, a leading educational platform headquartered in Kitchener-Waterloo.</div>
             </div>
             <div>
@@ -54,11 +56,39 @@
         <div class="uk-grid-margin uk-grid" uk-grid="">
           <div class="uk-width-expand@m uk-width-1-2@s uk-first-column">
             <div class="uk-margin uk-panel uk-text-center">
-              <img src="../assets/company_placeholder.png" class="el-image" alt="">
-              <div class="el-content">Apply now to become a Silver Sponsor!</div>
+              <div class="image-container">
+                <img height="120" src="../assets/sunlife.png" class="el-image logo-image" alt="">
+              </div>
+              <div class="el-content">We are pleased to announce a silver partnership with Sunlife Financial.</div>
+            </div>
+            <div>
+              <ul class="uk-subnav uk-margin-remove-bottom uk-subnav-divider uk-flex-center" uk-margin="">
+                <li class="el-item uk-first-column">
+                  <a class="el-link" href="http://www.sunlife.com/" target="_blank" >Website</a>
+                </li>
+                <li class="el-item">
+                  <a class="el-link" href="https://twitter.com/SunLife?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" >Twitter</a>
+                </li>
+              </ul>
             </div>
           </div>
           <div class="uk-width-expand@m uk-width-1-2@s">
+            <div class="uk-margin uk-panel uk-text-center">
+              <div class="image-container">
+                <img src="../assets/ppi.png" class="el-image logo-image" alt="">
+              </div>
+              <div class="el-content">We are pleased to announce a silver partnership with PPI.</div>
+            </div>
+            <div>
+              <ul class="uk-subnav uk-margin-remove-bottom uk-subnav-divider uk-flex-center" uk-margin="">
+                <li class="el-item uk-first-column">
+                  <a class="el-link" href="http://www.ppibenefits.ca/index.html" target="_blank" >Website</a>
+                </li>
+                <li class="el-item">
+                  <a class="el-link" href="https://twitter.com/PPINewsroom" target="_blank" >Twitter</a>
+                </li>
+              </ul>
+            </div>
           </div>
           <div class="uk-width-expand@m uk-width-1-2@s">
           </div>
@@ -119,5 +149,13 @@
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
+  }
+
+  .image-container {
+    max-height: 200px;
+    height: 200px;
+    .logo-image {
+      max-height: 200px;
+    }
   }
 </style>

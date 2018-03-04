@@ -62,6 +62,7 @@
     background-image: url("../assets/laz_bg.jpg");
     background-color: #999;
     background-blend-mode: multiply;
+    background-position: top;
 }
 .video-js {
   height: 100%;
