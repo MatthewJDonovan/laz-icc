@@ -36,7 +36,7 @@
         </div>
       </div>
     </div>
-    <nav class="uk-navbar-container uk-visible@m" uk-navbar="offset: 0; delay-hide: 0">
+    <nav class="uk-navbar-container uk-visible@m uk-visible@s" uk-navbar="offset: 0; delay-hide: 0">
       <div class="uk-navbar-left">
         <router-link :to="{ path: '/'}" class="uk-navbar-item uk-logo"></router-link>
       </div>

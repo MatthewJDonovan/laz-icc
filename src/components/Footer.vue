@@ -20,10 +20,10 @@
               <a href="https://www.facebook.com/LazaridisICC/" class="uk-link-reset" target="_blank">Facebook</a>
             </li>
             <li>
-              <a class="uk-link-reset">Twitter</a>
+              <a class="uk-link-reset" href="https://twitter.com/LazaridisICC" target="_blank">Twitter</a>
             </li>
             <li>
-              <a class="uk-link-reset">Instagram</a>
+              <a class="uk-link-reset" href="https://www.instagram.com/lazaridisicc/?hl=en" target="_blank">Instagram</a>
             </li>
           </ul>
         </div>

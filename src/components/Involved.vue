@@ -13,7 +13,7 @@
         </div>
       </div>
     </div>
-    <div class="uk-section-muted uk-section uk-section-medium">
+    <div class="uk-section-default uk-section uk-section-medium">
       <div class="uk-container">
         <div uk-grid>
           <div class="uk-width-1-5 uk-text-left"></div>
