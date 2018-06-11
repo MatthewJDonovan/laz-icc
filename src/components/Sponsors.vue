@@ -36,7 +36,22 @@
               </ul>
             </div>
           </div>
-          <div class="uk-width-expand@m uk-width-1-2@s">
+          <div class="uk-width-expand@m uk-width-1-2@s uk-first-column">
+            <div class="uk-margin uk-panel uk-text-center">
+              <div class="image-container">
+                <img src="../assets/shopify.png" class="el-image logo-image" alt="">
+              </div>
+            </div>
+            <div>
+              <ul class="uk-subnav uk-margin-remove-bottom uk-subnav-divider uk-flex-center" uk-margin="">
+                <li class="el-item uk-first-column">
+                  <a class="el-link" href="https://www.shopify.ca/" target="_blank" >Website</a>
+                </li>
+                <li class="el-item">
+                  <a class="el-link" href="https://twitter.com/shopify" target="_blank" >Twitter</a>
+                </li>
+              </ul>
+            </div>
           </div>
           <div class="uk-width-expand@m uk-width-1-2@s">
           </div>
