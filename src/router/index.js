@@ -5,6 +5,8 @@ import Contact from '@/components/Contact'
 import Competition from '@/components/Competition'
 import Sponsors from '@/components/Sponsors'
 import Laz from '@/components/Laz'
+import Rules from '@/components/Rules'
+import Schedule from '@/components/Schedule'
 import Ontario from '@/components/Ontario'
 import Involved from '@/components/Involved'
 import UIkit from 'uikit'
@@ -48,6 +50,14 @@ export default new Router({
       path: '/laz',
       name: 'laz',
       component: Laz
+    }, {
+      path: '/rules',
+      name: 'rules',
+      component: Rules
+    }, {
+      path: '/schedule',
+      name: 'schedule',
+      component: Schedule
     }, {
       path: '/ontario',
       name: 'ontario',

@@ -68,16 +68,6 @@
         </div>
       </div>
     </div>
-    <div class="uk-section-default uk-section uk-section-medium">
-      <div class="uk-container">
-        <div class="uk-grid-margin uk-grid uk-grid-stack" uk-grid="">
-          <h2 class="uk-width-2-5 uk-margin-auto uk-text-right uk-heading-bullet"><span>SCHEDULE</span></h2>
-          <div class="uk-width-3-5 uk-margin-auto uk-text-left">
-            <div class="schedule uk-background-contain uk-height-large uk-panel uk-flex uk-flex-center uk-flex-middle"></div>
-          </div>
-        </div>
-      </div>
-    </div>
     <footnav></footnav>
   </div>
 </template>

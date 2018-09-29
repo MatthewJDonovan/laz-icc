@@ -21,6 +21,8 @@
                   <li class=" menu-item-home"><router-link :to="{ path: '/'}">HOME</router-link></li>
                   <li class="uk-parent"><router-link to="laz">ABOUT US</router-link>
                     <ul class="uk-nav-sub">
+                      <li><router-link to="rules">Competition Rules</router-link></li>
+                      <li><router-link to="schedule">Competition Schedule</router-link></li>
                       <li><router-link to="laz">Lazaridis School of Business & Economics</router-link></li>
                       <li class="uk-nav-divider"></li>
                       <li><router-link to="ontario">Waterloo & Surrounding Area</router-link></li>
@@ -45,6 +47,8 @@
           <li class="uk-parent"><router-link to="laz">ABOUT US</router-link>
             <div class="uk-navbar-dropdown">
               <ul class="uk-nav uk-navbar-dropdown-nav">
+                <li><router-link to="rules">Competition Rules</router-link></li>
+                <li><router-link to="schedule">Competition Schedule</router-link></li>
                 <li><router-link to="laz">Lazaridis School of Business & Economics</router-link></li>
                 <li><router-link to="ontario">Waterloo & Surrounding Area</router-link></li>
               </ul>
