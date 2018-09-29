@@ -7,7 +7,10 @@
         <div class="uk-width-1-1@m uk-first-column">
           <h2 class="uk-width-xxlarge uk-margin-auto uk-text-center">Competition Schedule</h2>
           <div class="uk-margin uk-margin-remove-top uk-width-2-3 uk-margin-auto uk-text-center">
-            <iframe src="https://drive.google.com/file/d/1mZ9BrEGCd7ClEKUbiXZI4-F-QbOdXUKV/preview" width="800" height="2000"></iframe>
+            <object data="https://drive.google.com/file/d/1mZ9BrEGCd7ClEKUbiXZI4-F-QbOdXUKV/preview" width="800" height="2000">
+              <embed src="https://drive.google.com/file/d/1mZ9BrEGCd7ClEKUbiXZI4-F-QbOdXUKV/preview" width="800" height="2000"></embed>
+              Error: Embedded data could not be displayed.
+            </object>
           </div>
         </div>
       </div>
@@ -16,27 +19,26 @@
   </div>
 </template>
 <script>
-  import Footnav from './Footer.vue'
-  import Navbar from './Navbar.vue'
-  
-  export default {
-    name: 'schedule',
-    components: {
-      Footnav,
-      Navbar
-    },
-    data () {
-    }
-  }
+import Footnav from "./Footer.vue";
+import Navbar from "./Navbar.vue";
+
+export default {
+  name: "schedule",
+  components: {
+    Footnav,
+    Navbar
+  },
+  data() {}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
 .laz-image {
-    background-image: url("../assets/schedule.jpg");
-    background-color: #999;
-    background-blend-mode: multiply;
-    background-position: top;
+  background-image: url("../assets/schedule.jpg");
+  background-color: #999;
+  background-blend-mode: multiply;
+  background-position: top;
 }
 .video-js {
   height: 100%;

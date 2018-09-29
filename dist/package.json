@@ -1,8 +1,8 @@
 {
  "name": "blog",
  "version": "1.0.0",
- "description": "personalblog",
- "author": "Awesome Author",
+ "description": "LazICC Website",
+ "author": "Andrew McEwen",
  "private": true,
  "scripts": {
    "postinstall": "npm install express"

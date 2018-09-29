@@ -7,7 +7,12 @@
         <div class="uk-width-1-1@m uk-first-column">
           <h2 class="uk-width-xxlarge uk-margin-auto uk-text-center">Competition Rules</h2>
           <div class="uk-margin uk-margin-remove-top uk-width-2-3 uk-margin-auto uk-text-center">
-            <iframe src="https://drive.google.com/file/d/1yQbVvEXfwpJsk-pmmbtgP4Ko0JLV2iJB/preview" width="800" height="2000"></iframe>
+            <div class="uk-margin uk-margin-remove-top uk-width-2-3 uk-margin-auto uk-text-center">
+            <object data="https://drive.google.com/file/d/1yQbVvEXfwpJsk-pmmbtgP4Ko0JLV2iJB/preview" width="800" height="2000">
+              <embed src="https://drive.google.com/file/d/1yQbVvEXfwpJsk-pmmbtgP4Ko0JLV2iJB/preview" width="800" height="2000"></embed>
+              Error: Embedded data could not be displayed.
+            </object>
+          </div>
           </div>
         </div>
       </div>
