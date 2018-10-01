@@ -538,6 +538,10 @@
     "webpack-hot-middleware": "^2.18.0",
     "webpack-merge": "^4.1.0"
   },
+  "engines": {
+    "node": "8.1.1",
+    "npm": "6.4.1"
+  },
   "browserslist": [
     "> 1%",
     "last 2 versions",
