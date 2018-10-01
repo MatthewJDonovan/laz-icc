@@ -1,12 +1,12 @@
 {
- "name": "blog",
- "version": "1.0.0",
- "description": "LazICC Website",
- "author": "Andrew McEwen",
- "private": true,
- "scripts": {
-   "postinstall": "npm install express"
- },
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "personalblog",
+  "author": "Awesome Author",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install express"
+  },
  "dependencies": {
    "connect-history-api-fallback": "^1.5.0"
  }
